@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 :root {
-  --primary-color: #22254b;
-  --secondary-color: #373b69;
+
+  --primary-color: #101820FF;     
+  --secondary-color: rgb(221, 141, 35);
 }
 
 * {
@@ -19,7 +20,7 @@ header {
   padding: 1rem;
   display: flex;
   justify-content:space-between;
-  background-color: var(--secondary-color);
+  background-color: rgb(27, 50, 73);
 }
 .tdmb{
     width:10%;
@@ -32,6 +33,7 @@ header {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
+  max-width:100%;
 }
 
 .search::placeholder {
